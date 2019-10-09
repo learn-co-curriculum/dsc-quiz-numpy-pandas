@@ -65,12 +65,11 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday']
 
 ?: In what order should you run the following commands in order to generate and display a labelled plot? 
 
-```python
-# 1. plt.title('Example plot')
-# 2. data.plot()
-# 3. plt.show()
-# 4. import matplotlib.pyplot as plt
-```
+1. `plt.title('Example plot')`  
+2. `data.plot()`  
+3. `plt.show()`  
+4. `import matplotlib.pyplot as plt` 
+
 
 ( ) 2-1-3-4
 ( ) 4-1-2-3
