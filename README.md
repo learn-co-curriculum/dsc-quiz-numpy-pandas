@@ -2,6 +2,8 @@
 
 We recommend you **do not** use Python to answer these questions. Instead, based on what you have learned in this section, _reason_ the code to choose an expected answer. 
 
+???
+
 # Arrays and DataFrames
 
 ?: Fill in the blank such that `x` prints the following output:  
