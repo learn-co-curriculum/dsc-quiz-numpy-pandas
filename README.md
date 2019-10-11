@@ -6,7 +6,10 @@ We recommend you **do not** use Python to answer these questions. Instead, based
 
 # Arrays and DataFrames
 
-?: Fill in the blank such that `x` prints the following output:  
+?: Question 1  
+
+
+Fill in the blank such that `x` prints the following output:  
 
 ```python
 import numpy as np
@@ -22,7 +25,10 @@ array([1, 2, 3])
 ( ) `numpy.array([1, 2, 3])`
 
 
-?: What is the output of the following code? 
+?: Question 2   
+
+
+What is the output of the following code? 
 
 
 ```python
@@ -37,7 +43,10 @@ print(x[1, 1])
 ( ) `[1, 4]`
 
 
-?: How do you convert the data type of the column `'x'` in `df` from an `object` to an integer? 
+?: Question 3   
+
+
+How do you convert the data type of the column `'x'` in `df` from an `object` to an integer? 
 
 ( ) `df['x'].astype('integer)`
 ( ) `int(df['x'])` 
@@ -45,27 +54,31 @@ print(x[1, 1])
 (X) `df['x'].astype(int)` 
 
 
-?: As shown below, the indices of `df` are 0 through 3. Which command updates the indices of `df` to `days`?  
+?: Question 4   
+
+
+As shown below, the indices of `df` are 0 through 2. Which command updates the indices of `df` to `dates`?  
+
+|    |   temperature |   humidity |
+|----|---------------|------------|
+|  0 |            70 |         85 |
+|  1 |            68 |         80 |
+|  2 |            71 |         80 |
 
 ```python
-df
-
-     x   y
-0   22  31
-1   45  56
-2   10  20
-3   30  42
-
-days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday']
+dates = ['2018/01/01', '2018/01/02', '2018/01/03']
 ```
 
-( ) `df[indices] = days` 
-( ) `index(df) = days` 
-(X) `df.index = days` 
-( ) `df.index(days)`
+( ) `df[indices] = dates` 
+( ) `index(df) = dates` 
+(X) `df.index = dates` 
+( ) `df.index(dates)`
 
 
-?: In what order should you run the following commands in order to generate and display a labelled plot? 
+?: Question 5    
+
+
+In what order should you run the following commands in order to generate and display a labelled plot? 
 
 1. `plt.title('Example plot')`  
 2. `data.plot()`  
