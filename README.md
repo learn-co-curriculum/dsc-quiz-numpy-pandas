@@ -13,8 +13,8 @@ Fill in the blank such that `x` prints the following output:
 
 ```python
 import numpy as np
-x = ___
-print(x)
+sample_array = ___
+print(sample_array)
 
 array([1, 2, 3])
 ```
@@ -33,8 +33,8 @@ What is the output of the following code?
 
 ```python
 import numpy as np
-x = np.array([[1, 2, 3], [4, 5, 6]])
-print(x[1, 1])
+sample_array = np.array([[1, 2, 3], [4, 5, 6]])
+print(sample_array[1, 1])
 ```
 
 ( ) `1` 
