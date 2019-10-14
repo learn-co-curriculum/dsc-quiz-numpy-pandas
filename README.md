@@ -9,7 +9,7 @@ We recommend you **do not** use Python to answer these questions. Instead, based
 ?: Question 1  
 
 
-Fill in the blank such that `x` prints the following output:  
+Fill in the blank such that `sample_array` prints the following output:  
 
 ```python
 import numpy as np
